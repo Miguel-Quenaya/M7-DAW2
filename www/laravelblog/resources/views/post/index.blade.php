@@ -17,7 +17,7 @@
                     <h2><a href="{{route('post.show',['id'=>$post->id])}}">{{ $post->title }}</a></h2>
                     <p>{{$post->id}}</p>
                     <p class="btmspace-30">{{ $post->user->name }}&hellip;</p>
-                    <footer><a class="btn" href="article.html">Read More &raquo;</a></footer>
+                    <footer><a class="btn" href="{{route('post.show',['id'=>$post->id])}}">Read More &raquo;</a></footer>
                 </div>
             </div>
 

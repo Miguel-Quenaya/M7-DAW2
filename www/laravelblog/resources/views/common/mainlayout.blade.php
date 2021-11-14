@@ -33,8 +33,8 @@
   <nav id="mainav" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul class="clear">
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a class="drop" href="index_categorias.html">Categorias</a>
+      <li class="active"><a href="{{route('post.index')}}">Home</a></li>
+      <li><a class="drop" href="{{route('category.index')}}">Categorias</a>
         <ul>
           @foreach ($categories as $category)
           <li><a href="index_categoria_articles.html">{{$category->title}}</a></li>
@@ -42,23 +42,7 @@
           @endforeach
         </ul>
       </li>
-      <li><a class="drop" href="#">Dropdown</a>
-        <ul>
-          <li><a href="#">Level 2</a></li>
-          <li><a class="drop" href="#">Level 2 + Drop</a>
-            <ul>
-              <li><a href="#">Level 3</a></li>
-              <li><a href="#">Level 3</a></li>
-              <li><a href="#">Level 3</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Level 2</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Link Text</a></li>
-      <li><a href="#">Link Text</a></li>
-      <li><a href="#">Link Text</a></li>
-      <li><a href="#">Long Link Text</a></li>
+      
     </ul>
     <!-- ################################################################################################ -->
   </nav>
