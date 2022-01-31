@@ -47,3 +47,112 @@ cd..
 cd laravelblog\
 php artisan route:list
 php artisan serve
+php artisan serve
+php artisan serve
+php artisan serve
+cd..
+cd laravelblog\
+php artisan route:list
+php artisan serve
+cd ..
+composer create-project --prefer-dist laravel/hash 
+composer create-project --prefer-dist laravel/laravel hash
+cd AA2_M7\
+composer install
+npm install
+composer instal
+ls
+cd hashdecrypt\
+composer update
+php artisan serve
+cd..
+ls
+cd AA2_M7\
+cd hashdecrypt\
+php artisan migrate
+php artisan key:generate
+php artisan serve
+php artisan serve
+npm install tailwindcss postcss autoprefixer -D
+npm run dev
+php artisan serve
+php artisan serve
+php artisan serve
+php artisan serve
+php artisan key:generate
+php artisan serve
+php artisan serve
+npm install tailwindcss postcss autoprefixer -D
+npm run dev
+php artisan serve
+php artisan serve
+php artisan serve
+php artisan serve
+cd ..
+ls
+cd receptes\
+php artisan make:model Category -a
+php artisan make:model Comment -a
+php artisan make:model Recipes -a
+php artisan make:model Steps -a
+php artisan make:model Ingredient -a
+php artisan make:model Recipe -a
+php artisan make::migration create_categories_recipes_table
+php artisan make:migration create_categories_recipes_table
+php artisan migrate:rollback
+php artisan migrate
+php artisan migrate:refresh
+php artisan serve
+cd ..
+cd laravelblog\
+php artisan serve
+php artisan serve
+npm install tailwindcss postcss autoprefixer -D
+npm run dev
+php artisan serve
+php artisan serve
+php artisan serve
+php artisan serve
+cd ..
+ls
+cd receptes\
+php artisan make:model Recipes -a
+php artisan make:model Steps -a
+php artisan make:model Ingredient -a
+php artisan make::migration create_categories_recipes_table
+php artisan make:migration create_categories_recipes_table
+php artisan migrate:rollback
+php artisan migrate:refresh
+php artisan serve
+cd laravelblog\
+cd ..
+laravel new recipes --jet
+composer create-project --prefer-dist laravel/laravel recipes
+cd recipes\
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+npm install && npm run dev
+php artisan make:model Category -a
+php artisan make:model Recipe -a
+php artisan make:model Comment -a
+php artisan make:model Category_Recipe -a
+php artisan migrate
+php artisan migrate:refresh && php artisan db:seed
+php artisan serve
+php artisan serve
+composer create-project --prefer-dist laravel/laravel recipes
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+npm install && npm run dev
+php artisan make:model Category -a
+php artisan make:model Recipe -a
+php artisan make:model Comment -a
+php artisan make:model Category_Recipe -a
+php artisan migrate
+php artisan serve
+cd ..
+cd reci
+cd recipes\
+ls
+php artisan storage:link
+php artisan migrate:refresh && php artisan db:seed

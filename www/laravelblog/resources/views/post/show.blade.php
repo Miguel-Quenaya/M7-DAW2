@@ -15,6 +15,7 @@
             <div class="group btmspace-80">
 
                 <div>
+                    
                     <h3>{{$post->title}}</h3>
                     <p>{{$post->content}}</p>
                     <p class="btmspace-30">Author: {{$post->user->name}}</p>
