@@ -2286,3 +2286,40 @@ Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2022-01-30T15:35:01.046772Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9560596ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
 2022-01-30T17:38:53.968905Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 32104ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
 2022-01-30T20:28:20.437451Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8449749ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-01-31T11:00:14.206988Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-01-31T11:00:14.207623Z 0 [Note] C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld (mysqld 5.7.33) starting as process 10852 ...
+2022-01-31T11:00:14.527128Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-01-31T11:00:14.528752Z 0 [Note] InnoDB: Uses event mutexes
+2022-01-31T11:00:14.529761Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-01-31T11:00:14.531330Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-01-31T11:00:14.606544Z 0 [Note] InnoDB: Number of pools: 1
+2022-01-31T11:00:14.635660Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-01-31T11:00:14.665066Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-01-31T11:00:14.713163Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-01-31T11:00:14.868601Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-01-31T11:00:14.969065Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 27886125
+2022-01-31T11:00:14.969988Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 27886134
+2022-01-31T11:00:14.970855Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-01-31T11:00:14.971525Z 0 [Note] InnoDB: Starting crash recovery.
+2022-01-31T11:00:17.296018Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-01-31T11:00:17.299188Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-01-31T11:00:17.303553Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-01-31T11:00:17.684912Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-01-31T11:00:17.729475Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-01-31T11:00:17.732946Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-01-31T11:00:17.735402Z 0 [Note] InnoDB: Waiting for purge to start
+2022-01-31T11:00:17.805638Z 0 [Note] InnoDB: 5.7.33 started; log sequence number 27886134
+2022-01-31T11:00:17.809784Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\laragon\data\mysql\ib_buffer_pool
+2022-01-31T11:00:17.998508Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-01-31T11:00:18.492151Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-01-31T11:00:18.496774Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-01-31T11:00:18.659734Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-01-31T11:00:18.663263Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-01-31T11:00:18.685876Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-01-31T11:00:18.689411Z 0 [Note] IPv6 is available.
+2022-01-31T11:00:18.691404Z 0 [Note]   - '::' resolves to '::';
+2022-01-31T11:00:18.693971Z 0 [Note] Server socket created on IP: '::'.
+2022-01-31T11:00:18.809305Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220131 12:00:18
+2022-01-31T11:00:20.239786Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-01-31T11:00:20.242832Z 0 [Note] C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: ready for connections.
+Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)

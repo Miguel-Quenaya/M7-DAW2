@@ -5,18 +5,6 @@
                             
 @extends('common.mainlayout')
 
-                       
-
-
-            
-            
-                    
-                    
-                
-
-            
-
-
 @section('content')
 <div class="page-title wb">
             <div class="container">
@@ -37,6 +25,21 @@
                         <div class="page-wrapper">
                             <div class="blog-list clearfix">
                             @foreach ($category->recipes as $recipe)
+<?php
+        $comentarios = $recipe->comments;
+        $valoracion=0;
+ 
+        foreach($comentarios as $comentario){
+                $valoracion += $comentario -> star;
+                
+        }
+        if(count($comentarios) != 0){
+            $valoracion = intval($valoracion / count($comentarios));
+        }else{
+            $valoracion = 0;
+        }
+        
+?>
                                 <div class="blog-box row">
                                     <div class="col-md-4">
                                         <div class="post-media">
@@ -49,11 +52,9 @@
 
                                     <div class="blog-meta big-meta col-md-8">
                                         <div class="rating">
+                                        @for ($i = 0; $i < $valoracion ; $i++)
                                             <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
+                                        @endfor
                                         </div>
                                         <h4><a href="{{route('recipe.show',['id'=>$recipe->id])}}" title="">{{$recipe->name}}</a></h4>
                                         <p>{{$recipe->description}}</p>

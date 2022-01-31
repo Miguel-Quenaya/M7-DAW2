@@ -42,6 +42,7 @@ class CommentController extends Controller
             'user_id' => $request->input('user_id'),
             'recipe_id' => $request->input('recipe_id'),
             'text' =>$request->input('Lcomment'),
+            'star' => $request->input('star')
         ]);
 
         return redirect()->back();

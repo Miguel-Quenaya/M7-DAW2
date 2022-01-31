@@ -3,7 +3,16 @@
 
 
 
-        <a href="{{route('category.create')}}">crear</a>
+<div class="page-title wb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <h2><i class="fa fa-cutlery bg-red"></i> CATEGORIAS</h2>
+                    </div><!-- end col -->
+                    <!-- end col -->                    
+                </div><!-- end row -->
+            </div><!-- end container -->
+</div><!-- end page-title -->
             @foreach ($categories as $category)
             
                 

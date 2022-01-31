@@ -27,6 +27,7 @@ class CommentSeeder extends Seeder
             foreach($users as $user){
                 Comment::create([
                     'text' => $faker->sentence(rand(6, 20)),
+                    'star' => $faker->numberBetween($min = 0, $max = 5),
                     'recipe_id' => $recipe->id,
                     'user_id' => $user->id
                     

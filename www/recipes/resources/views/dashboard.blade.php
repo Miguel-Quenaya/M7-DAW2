@@ -1,3 +1,7 @@
+<?php
+header("Location: http://localhost:8000/categorias");
+exit();
+?>
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">

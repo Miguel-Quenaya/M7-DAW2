@@ -57,23 +57,21 @@
                     <div class="collapse navbar-collapse justify-content-md-center" id="RecipeListmenu">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="food-index.html">Home</a>
+                                <a class="nav-link" href="{{route('recipe.index')}}">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="food-category.html">Recipes</a>
+                                <a class="nav-link" href="{{route('category.index')}}">Categorias</a>
                             </li>
+                            
+                            
                             <li class="nav-item">
-                                <a class="nav-link" href="food-category.html"><i class="fa fa-play-circle-o"></i> Video Recipes</a>
+                                <a class="nav-link" href="{{route('category.create')}}">Crea tu receta</a>
                             </li>
+                            @if(Auth::user() == null)  
                             <li class="nav-item">
-                                <a class="nav-link" href="food-category.html">Restaurants</a>
+                                <a class="nav-link" href="http://localhost:8000/login"><i class="fa fa-play-circle-o"></i> LOGIN</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="food-category.html">Kitchenware</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="food-contact.html">Contact Me</a>
-                            </li>  
+                            @endif
                         </ul>
                     </div>
                 </nav>
