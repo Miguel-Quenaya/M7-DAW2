@@ -156,3 +156,33 @@ cd recipes\
 ls
 php artisan storage:link
 php artisan migrate:refresh && php artisan db:seed
+php artisan serve
+composer create-project --prefer-dist
+php artisan migrate:refresh && php artisan db:seed
+php artisan serve
+composer create-project --prefer-dist laravel/laravel recipes
+php artisan make:model Category -a
+php artisan make:model Recipe -a
+php artisan make:model Comment -a
+php artisan make:model Category_Recipe -a
+php artisan serve
+cd reci
+cd recipes\
+php artisan storage:link
+cd ..
+composer create-project --prefer-dist
+composer create-project --prefer-dist laravel/laravel bloglaravel8
+ls
+composer create-project --prefer-dist laravel/laravel lol
+cd lol
+composer require laravel/jetstream
+php artisan jettream:install livewire
+php artisan jetsream:install livewire
+php artisan jetstream:install livewire
+nbpm install && npm run dev
+npm install && npm run dev
+php artisan make:model Champion -a
+php artisan migrate
+ php artisan db:seed
+php artisan migrate:refresh && php artisan db:seed
+php artisan serve

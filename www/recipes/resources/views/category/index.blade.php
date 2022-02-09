@@ -13,6 +13,7 @@
                 </div><!-- end row -->
             </div><!-- end container -->
 </div><!-- end page-title -->
+
             @foreach ($categories as $category)
             
                 
