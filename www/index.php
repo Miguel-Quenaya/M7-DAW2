@@ -59,6 +59,7 @@
         </style>
     </head>
     <body>
+	<p>Hola </p>
         <div class="container">
             <div class="content">
                 <div class="title" title="Laragon">Laragon</div>
